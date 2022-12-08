@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="scss/main.scss"/>
+   
+    <title>Landing Page TCC</title>
+</head>
+<body>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+<nav class="navbar navbar-expand-sm bg-light">
+    <div class="contanier-fluid">
+        <a href="#" class="navbar-brand">
+            <span class="fw-bold text-primary">
+                <img src="img/logo.jpg" class="img-thumbnail" alt="Logo" width="30" height="24">
+            </span>
+        </a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links">
+<span class="navbar-toggler-icon">
+    
+</span>
+</button>
+
+        <div class=" collapse navbar-collapse justify-content-end" id="links">
+            <ul class="navbar-nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#" class="nav-link link-dark">Valida Artigo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link link-dark">Cadastro</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link link-dark">Contato HelpDesk</a>
+                </li>
+                <li class="nav-item d-none d-sm">
+                    <a href="#" class="btn btn-primary ltext-bg-dark p-3">Pesquisar Artigo</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline">   
+                </li>
+            </ul>
+            
+           <div class="position-absolute bottom-0 end-0">
+            <form class="d-flex form-control-sm" role="search">
+            <div class="row mb-6" >
+             <div class="col-6 mb-3">
+                <input class="form-control me-2 form-control-sm" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+             </div>  
+             <div class="col-6 mb-3">
+                <button class="btn btn-outline-primary me-2 d-sm-inline" type="submit" >Pesquisar Artigo</button><!--<a href="#" class="btn btn-primary">Pesquisar Artigo</a>-->
+            </div>  
+            </form>
+        </div>
+
+        </div>
+    </div>
+</nav>
+
+<section class="bg-ligth">
+    <div class="text-center">
+    <h2 class="text-lg-center">Repositorios da Faculdade</h2>
+    <p class="lead text-muted text-lg-center">Tipos de Artigos</p>
+    </div>
+    <div class=" row  my-4 align-items-center justify-content-center g-3">
+        <div class=" col-8 col-lg-4">
+            <div class="card border border-2  border-primary">
+                <div class="card-header text-center text-primary">MAIS ACESSADO!!</div>
+                <div class="card" style="width: 30rem;">
+                    <img src="img/tecnologia.jpg" class=" card-img-top rounded" alt="Tecnologia">
+                </div>
+                <div class="card-body text-center">
+                    <h4 class="card-title"> Tecnologia</h4>
+                    <p class="lard card-subtitle">Desenvolvimento Web</p>
+                    <p class="display-6 my-3 text-primary fw-bold">Artigos relacionados a área da tecnologia.</p>
+                    <p class="card-text mx-5 text-muted d-none s-sm-block">Texto so aprece em aparelhos pequenos</p>
+                 
+                    <a href="#" class="btn btn-primary btn-md">Veja mais!!!</a>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class=" col-8 col-lg-4">
+        <div class="card border border-2  border-primary">
+            <div class="card-body text-center">
+                <h4 class="card-title"> Saude</h4>
+                <p class="lard card-subtitle">Clinico Geral</p>
+                <p class="display-6 my-3 text-primary fw-bold">Artigos relacionados a área da educação.</p>
+                <p class="card-text mx-5 text-muted d-none s-sm-block">Texto so aprece em aparelhos pequenos</p>
+                <img src="img/saude.jpg" class="rounded" alt="Educação" width="50%" height="50%"><br>
+                <a href="#" class="btn btn-primary btn-md">Veja mais!!!</a>
+            </div>
+        </div>
+     </div>
+     
+     <div class=" col-8 col-lg-4">
+        <div class="card border border-2  border-primary">
+            <div class="card-body text-center">
+                <h4 class="card-title"> Educação</h4>
+                <p class="lard card-subtitle">Pedagogia</p>
+                <p class="display-6 my-3 text-primary fw-bold">Artigos relacionados a área da saúde.</p>
+                <p class="card-text mx-5 text-muted d-none s-sm-block">Texto so aprece em aparelhos pequenos</p>
+                <img src="img/educacao.png" class="rounded" alt="Saude" width="50%" height="50%"><br>
+                <a href="#" class="btn btn-primary btn-md">Veja mais!!!</a>
+            </div>
+        </div>
+     </div>
+    </div>
+
+
+  
+
+
+</section>
+</body>
+</html>
